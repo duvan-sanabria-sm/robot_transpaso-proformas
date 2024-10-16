@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Private Chrome Resultados KS REPORTE CARTERA ",
+  "Type": "Screen",
+  "Id": "XOhnPyoc3UWuANpuLb_wGw",
+  "Reference": "A91PH9c_eEG4ABR2aEWY9w/XOhnPyoc3UWuANpuLb_wGw",
+  "ParentRef": "A91PH9c_eEG4ABR2aEWY9w/IG1rllK1r0-upa6XQqIs0Q",
+  "Created": "2024-10-01T17:25:49.1992505Z",
+  "Updated": "2024-10-01T17:25:49.1992505Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
