@@ -186,7 +186,7 @@
       <x:Boolean x:Key="ShouldExpandAll">False</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence sap:VirtualizedContainerService.HintSize="1069,671" sap2010:WorkflowViewState.IdRef="Sequence_530">
+  <Sequence sap:VirtualizedContainerService.HintSize="1270,671" sap2010:WorkflowViewState.IdRef="Sequence_530">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -219,7 +219,7 @@
             <av:PointCollection x:Key="ConnectorLocation">550,205 550,255</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <Sequence DisplayName="Ubicación de documentos" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="Sequence_648">
+        <Sequence DisplayName="Ubicación de documentos" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="Sequence_653">
           <Sequence.Variables>
             <Variable x:TypeArguments="si:FileInfo" Name="archivo_proformas" />
           </Sequence.Variables>
@@ -702,7 +702,7 @@
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <Sequence DisplayName="Duración: Evita errores al  abrir el documento Filtrado de Actualización" sap:VirtualizedContainerService.HintSize="552,140" sap2010:WorkflowViewState.IdRef="Sequence_640">
+              <Sequence DisplayName="Duración: Evita errores al  abrir el documento Filtrado de Actualización" sap:VirtualizedContainerService.HintSize="614,140" sap2010:WorkflowViewState.IdRef="Sequence_640">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -717,40 +717,40 @@
                   </sap:WorkflowViewStateService.ViewState>
                 </Delay>
               </Sequence>
-              <Sequence DisplayName="Lectura y Filtrado: Almacenamiento en la tabla de datos" sap:VirtualizedContainerService.HintSize="552,570" sap2010:WorkflowViewState.IdRef="Sequence_286">
+              <Sequence DisplayName="Lectura y Filtrado: Almacenamiento en la tabla de datos" sap:VirtualizedContainerService.HintSize="614,1199" sap2010:WorkflowViewState.IdRef="Sequence_286">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     <x:Boolean x:Key="IsPinned">True</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" DisplayName="Alcance proceso de Excel" sap:VirtualizedContainerService.HintSize="518,487" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_2">
+                <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" DisplayName="Alcance proceso de Excel" sap:VirtualizedContainerService.HintSize="580,1116" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_2">
                   <ueab:ExcelProcessScopeX.Body>
                     <ActivityAction x:TypeArguments="ui:IExcelProcess">
                       <ActivityAction.Argument>
                         <DelegateInArgument x:TypeArguments="ui:IExcelProcess" Name="ExcelProcessScopeTag" />
                       </ActivityAction.Argument>
-                      <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="484,377" sap2010:WorkflowViewState.IdRef="Sequence_24">
+                      <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="546,1006" sap2010:WorkflowViewState.IdRef="Sequence_24">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             <x:Boolean x:Key="IsPinned">True</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Usar el archivo Excel" sap:VirtualizedContainerService.HintSize="450,317" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" ResizeWindow="None" WorkbookPath="\\Srvservimeters\PROGRAMACION AREA TECNICA\PROGRAMACION RETIE\REVISION DE PROFORMAS YEIMY\Archivos PC\AT NetSuite\Pruebas Camilo\Filtros Actualización de Proformas.xlsx">
+                        <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Usar el archivo Excel" sap:VirtualizedContainerService.HintSize="512,946" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" KeepExcelFileOpen="True" ResizeWindow="None" WorkbookPath="\\Srvservimeters\PROGRAMACION AREA TECNICA\PROGRAMACION RETIE\REVISION DE PROFORMAS YEIMY\Archivos PC\AT NetSuite\Pruebas Camilo\Filtros Actualización de Proformas.xlsx">
                           <ueab:ExcelApplicationCard.Body>
                             <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
                               <ActivityAction.Argument>
                                 <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="filtro_actualizacion" />
                               </ActivityAction.Argument>
-                              <Sequence DisplayName="Filtrado: Columna nuevas proformas" sap:VirtualizedContainerService.HintSize="416,25" sap2010:WorkflowViewState.IdRef="Sequence_23">
+                              <Sequence DisplayName="Filtrado: Columna nuevas proformas" sap:VirtualizedContainerService.HintSize="478,654" sap2010:WorkflowViewState.IdRef="Sequence_23">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                    <x:Boolean x:Key="IsPinned">True</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <ueab:FilterX ColumnName="{x:Null}" ClearFilter="True" DisplayName="Filtrado: Limpiar los filtros del documento Excel" HasHeaders="True" sap:VirtualizedContainerService.HintSize="382,57" sap2010:WorkflowViewState.IdRef="FilterX_2" Range="[filtro_actualizacion.Sheet(&quot;Añadir Nuevas Proformas&quot;)]">
+                                <ueab:FilterX ColumnName="{x:Null}" ClearFilter="True" DisplayName="Filtrado: Limpiar los filtros del documento Excel" HasHeaders="True" sap:VirtualizedContainerService.HintSize="444,201" sap2010:WorkflowViewState.IdRef="FilterX_2" Range="[filtro_actualizacion.Sheet(&quot;Añadir Nuevas Proformas&quot;)]">
                                   <ueab:FilterX.FilterArgument>
                                     <ueabf:FilterArgument Mode="Basic">
                                       <ueabf:FilterArgument.AdvancedFiltersArgument>
@@ -777,11 +777,11 @@
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                      <x:Boolean x:Key="IsPinned">True</x:Boolean>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                 </ueab:FilterX>
-                                <ueab:FilterX ClearFilter="False" ColumnName="Nuevas Proformas" DisplayName="Filtrado: Columna Nuevas Proformas con el valor de #N/D" HasHeaders="True" sap:VirtualizedContainerService.HintSize="382,57" sap2010:WorkflowViewState.IdRef="FilterX_7" Range="[filtro_actualizacion.Sheet(&quot;Añadir Nuevas Proformas&quot;)]">
+                                <ueab:FilterX ClearFilter="False" ColumnName="Nuevas Proformas" DisplayName="Filtrado: Columna Nuevas Proformas con el valor de #N/D" HasHeaders="True" sap:VirtualizedContainerService.HintSize="444,201" sap2010:WorkflowViewState.IdRef="FilterX_7" Range="[filtro_actualizacion.Sheet(&quot;Añadir Nuevas Proformas&quot;)]">
                                   <ueab:FilterX.FilterArgument>
                                     <ueabf:FilterArgument Mode="Basic">
                                       <ueabf:FilterArgument.AdvancedFiltersArgument>
@@ -807,15 +807,15 @@
                                   </ueab:FilterX.FilterArgument>
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                      <x:Boolean x:Key="IsPinned">True</x:Boolean>
                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                 </ueab:FilterX>
-                                <ueab:ReadRangeX DisplayName="Lectura: Capturamos los datos, se almacenan en la tabla de datos" sap:VirtualizedContainerService.HintSize="382,48" sap2010:WorkflowViewState.IdRef="ReadRangeX_3" Range="[filtro_actualizacion.Sheet(&quot;Añadir Nuevas Proformas&quot;)]" SaveTo="[datos_filtrados_proformas]">
+                                <ueab:ReadRangeX DisplayName="Lectura: Capturamos los datos, se almacenan en la tabla de datos" sap:VirtualizedContainerService.HintSize="444,192" sap2010:WorkflowViewState.IdRef="ReadRangeX_3" Range="[filtro_actualizacion.Sheet(&quot;Añadir Nuevas Proformas&quot;)]" SaveTo="[datos_filtrados_proformas]">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                      <x:Boolean x:Key="IsPinned">True</x:Boolean>
                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
@@ -1078,7 +1078,7 @@
                             <av:Size x:Key="ShapeSize">110,70</av:Size>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <Sequence DisplayName="Filtrado por Estado NS y Porcentaje" sap:VirtualizedContainerService.HintSize="1062,6215" sap2010:WorkflowViewState.IdRef="Sequence_175">
+                        <Sequence DisplayName="Filtrado por Estado NS y Porcentaje" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="Sequence_175">
                           <Sequence.Variables>
                             <Variable x:TypeArguments="sd:DataTable" Name="numero_filas_visitas_ejecutadas" />
                             <Variable x:TypeArguments="x:Int32" Name="last_row_visitas" />
@@ -1803,7 +1803,7 @@
                                                                                   <uix:NClick.Target>
                                                                                     <uix:TargetAnchorable BrowserURL="https://5845631.app.netsuite.com/app/accounting/transactions/salesord.nl?id=1635617&amp;whence=&amp;e=T" CVScreenId="2809b610-f6a7-464b-9abe-c3a1a995050f" CvElementArea="31, 313, 100, 31" CvTextArea="40, 322, 55, 13" CvTextArgument="Guardar" CvType="Button" DesignTimeRectangle="34, 316, 68, 26" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl class='uir-multibutton' tableRow='1' tag='TABLE' /&gt;&lt;webctrl id='btn_multibutton_submitter' tableRow='1' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl class='uir-multibutton' tag='TABLE' /&gt;&lt;webctrl id='btn_multibutton_submitter' type='submit' tag='INPUT' class='rndbuttoninpt bntBgT' aaname='Guardar' check:text='Guardar' /&gt;" Guid="995ae20a-ea0e-4492-9b19-a8052436e8a6" InformativeScreenshot="98743ec2ba06ea33c9cfed57bd5ccb6c.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='stSession229Id' title='Orden de Servicio - NetSuite (SERVIMETERS S.A.S)' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
                                                                                       <uix:TargetAnchorable.Anchors>
-                                                                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                                                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                                                                           <uix:Target CVScreenId="2809b610-f6a7-464b-9abe-c3a1a995050f" CvElementArea="138, 313, 77, 31" CvTextArea="148, 322, 57, 13" CvTextArgument="Cancelar" CvType="Button" DesignTimeRectangle="141, 316, 71, 26" ElementType="Button" FullSelectorArgument="&lt;webctrl id='tbl__cancel' tableRow='1' tag='TABLE' /&gt;&lt;webctrl id='_cancel' tableRow='1' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='tbl__cancel' tag='TABLE' /&gt;&lt;webctrl id='_cancel' type='button' tag='INPUT' class='rndbuttoninpt bntBgT ' aaname='Cancelar' check:text='Cancelar' /&gt;" Guid="ea5b0e30-3099-4672-bdc7-3738d6a710c9" SearchSteps="FuzzySelector, CV" />
                                                                                         </scg:List>
                                                                                       </uix:TargetAnchorable.Anchors>
@@ -2203,7 +2203,7 @@
                                                                                   <uix:NClick.Target>
                                                                                     <uix:TargetAnchorable BrowserURL="https://5845631.app.netsuite.com/app/accounting/transactions/salesord.nl?id=1635617&amp;whence=&amp;e=T" CVScreenId="2809b610-f6a7-464b-9abe-c3a1a995050f" CvElementArea="31, 313, 100, 31" CvTextArea="40, 322, 55, 13" CvTextArgument="Guardar" CvType="Button" DesignTimeRectangle="34, 316, 68, 26" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl class='uir-multibutton' tableRow='1' tag='TABLE' /&gt;&lt;webctrl id='btn_multibutton_submitter' tableRow='1' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl class='uir-multibutton' tag='TABLE' /&gt;&lt;webctrl id='btn_multibutton_submitter' type='submit' tag='INPUT' class='rndbuttoninpt bntBgT' aaname='Guardar' check:text='Guardar' /&gt;" Guid="8571e109-9326-4b2b-81a6-3f904b277ff4" InformativeScreenshot="5ccba97fc18b28f5dccf09586a2c26d4.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='stSession229Id' title='Orden de Servicio - NetSuite (SERVIMETERS S.A.S)' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
                                                                                       <uix:TargetAnchorable.Anchors>
-                                                                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                                                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                                                                           <uix:Target CVScreenId="2809b610-f6a7-464b-9abe-c3a1a995050f" CvElementArea="138, 313, 77, 31" CvTextArea="148, 322, 57, 13" CvTextArgument="Cancelar" CvType="Button" DesignTimeRectangle="141, 316, 71, 26" ElementType="Button" FullSelectorArgument="&lt;webctrl id='tbl__cancel' tableRow='1' tag='TABLE' /&gt;&lt;webctrl id='_cancel' tableRow='1' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='tbl__cancel' tag='TABLE' /&gt;&lt;webctrl id='_cancel' type='button' tag='INPUT' class='rndbuttoninpt bntBgT ' aaname='Cancelar' check:text='Cancelar' /&gt;" Guid="3bd69c59-c912-44e0-aa99-47018ecd936f" SearchSteps="FuzzySelector, CV" />
                                                                                         </scg:List>
                                                                                       </uix:TargetAnchorable.Anchors>
