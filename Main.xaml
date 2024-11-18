@@ -186,7 +186,7 @@
       <x:Boolean x:Key="ShouldExpandAll">False</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence sap:VirtualizedContainerService.HintSize="1079,671" sap2010:WorkflowViewState.IdRef="Sequence_530">
+  <Sequence sap:VirtualizedContainerService.HintSize="1261,803.04" sap2010:WorkflowViewState.IdRef="Sequence_530">
     <Sequence.Variables>
       <Variable x:TypeArguments="s:DateTime" Default="[Nothing]" Name="FechaInicio" />
       <Variable x:TypeArguments="s:DateTime" Default="[Nothing]" Name="FechaFin" />
@@ -197,7 +197,7 @@
         <x:Boolean x:Key="IsPinned">False</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Flowchart DisplayName="Diagrama de flujo" sap:VirtualizedContainerService.HintSize="1096,592.04" sap2010:WorkflowViewState.IdRef="Flowchart_2">
+    <Flowchart DisplayName="Diagrama de flujo" sap:VirtualizedContainerService.HintSize="1261,803.04" sap2010:WorkflowViewState.IdRef="Flowchart_2">
       <Flowchart.Variables>
         <Variable x:TypeArguments="x:String" Default="C:\Users\duvan.sanabria\OneDrive - Servimeters\Documentos\Notas Servimeters\Herramientas en uso\Robotización\Transpaso de Proformas\Documentación\" Name="ruta_revision_proformas" />
         <Variable x:TypeArguments="sd:DataTable" Name="datos_filtrados_proformas" />
@@ -223,7 +223,7 @@
             <av:PointCollection x:Key="ConnectorLocation">550,205 550,255</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <Sequence DisplayName="Ubicación de documentos" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="Sequence_688">
+        <Sequence DisplayName="Ubicación de documentos" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="Sequence_701">
           <Sequence.Variables>
             <Variable x:TypeArguments="si:FileInfo" Name="archivo_proformas" />
           </Sequence.Variables>
@@ -471,7 +471,7 @@
                                     <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" CreateNewFile="False" DisplayName="Uso: documento informe de programación general" sap:VirtualizedContainerService.HintSize="530,610" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_3" ResizeWindow="None" WorkbookPath="[archivo_proformas.FullName]">
+                                <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" SensitivityLabel="{x:Null}" CreateNewFile="False" DisplayName="Uso: documento informe de programación general" sap:VirtualizedContainerService.HintSize="530,610" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_3" ResizeWindow="None" SensitivityOperation="None" WorkbookPath="[archivo_proformas.FullName]">
                                   <ueab:ExcelApplicationCard.Body>
                                     <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
                                       <ActivityAction.Argument>
@@ -637,7 +637,7 @@
                                     <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" CreateNewFile="False" DisplayName="Uso: documento informe de programación general" sap:VirtualizedContainerService.HintSize="530,610" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_5" ResizeWindow="None" WorkbookPath="[archivo_proformas.FullName]">
+                                <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" SensitivityLabel="{x:Null}" CreateNewFile="False" DisplayName="Uso: documento informe de programación general" sap:VirtualizedContainerService.HintSize="530,610" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_5" ResizeWindow="None" SensitivityOperation="None" WorkbookPath="[archivo_proformas.FullName]">
                                   <ueab:ExcelApplicationCard.Body>
                                     <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
                                       <ActivityAction.Argument>
@@ -705,7 +705,7 @@
                 <av:PointCollection x:Key="ConnectorLocation">550,325 550,375</av:PointCollection>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <Sequence DisplayName="Filtrado de nuevas proformas" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="Sequence_689">
+            <Sequence DisplayName="Filtrado de nuevas proformas" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="Sequence_702">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -746,7 +746,7 @@
                             <x:Boolean x:Key="IsPinned">True</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Usar el archivo Excel" sap:VirtualizedContainerService.HintSize="512,946" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" KeepExcelFileOpen="True" ResizeWindow="None" WorkbookPath="\\Srvservimeters\PROGRAMACION AREA TECNICA\PROGRAMACION RETIE\REVISION DE PROFORMAS YEIMY\Archivos PC\AT NetSuite\Pruebas Camilo\Filtros Actualización de Proformas.xlsx">
+                        <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" SensitivityLabel="{x:Null}" DisplayName="Usar el archivo Excel" sap:VirtualizedContainerService.HintSize="512,946" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" KeepExcelFileOpen="True" ResizeWindow="None" SensitivityOperation="None" WorkbookPath="\\Srvservimeters\PROGRAMACION AREA TECNICA\PROGRAMACION RETIE\REVISION DE PROFORMAS YEIMY\Archivos PC\AT NetSuite\Pruebas Camilo\Filtros Actualización de Proformas.xlsx">
                           <ueab:ExcelApplicationCard.Body>
                             <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
                               <ActivityAction.Argument>
@@ -860,7 +860,7 @@
                     <av:PointCollection x:Key="ConnectorLocation">550,445 550,485</av:PointCollection>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <Sequence DisplayName="Actualización de plantilla Proformas" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="Sequence_690">
+                <Sequence DisplayName="Actualización de plantilla Proformas" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="Sequence_703">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -886,7 +886,7 @@
                                 <x:Boolean x:Key="IsPinned">True</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
-                            <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Usar archivo Excel" sap:VirtualizedContainerService.HintSize="502,534" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_8" ResizeWindow="None" WorkbookPath="\\Srvservimeters\PROGRAMACION AREA TECNICA\PROGRAMACION RETIE\REVISION DE PROFORMAS YEIMY\Archivos PC\AT NetSuite\Pruebas Camilo\Plantilla Proformas NS.xlsx">
+                            <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" SensitivityLabel="{x:Null}" DisplayName="Usar archivo Excel" sap:VirtualizedContainerService.HintSize="502,534" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_8" ResizeWindow="None" SensitivityOperation="None" WorkbookPath="\\Srvservimeters\PROGRAMACION AREA TECNICA\PROGRAMACION RETIE\REVISION DE PROFORMAS YEIMY\Archivos PC\AT NetSuite\Pruebas Camilo\Plantilla Proformas NS.xlsx">
                               <ueab:ExcelApplicationCard.Body>
                                 <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
                                   <ActivityAction.Argument>
@@ -942,7 +942,7 @@
                         <av:PointCollection x:Key="ConnectorLocation">550,555 550,605</av:PointCollection>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <Sequence DisplayName="Intervalos de Actualización " sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="Sequence_664">
+                    <Sequence DisplayName="Intervalos de Actualización " sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="Sequence_704">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -968,7 +968,7 @@
                                     <x:Boolean x:Key="IsPinned">True</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Uso del documento Excel" sap:VirtualizedContainerService.HintSize="536,1119" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_9" ResizeWindow="None" WorkbookPath="\\Srvservimeters\PROGRAMACION AREA TECNICA\PROGRAMACION RETIE\REVISION DE PROFORMAS YEIMY\Archivos PC\AT NetSuite\Pruebas Camilo\Filtros Actualización de Proformas.xlsx">
+                                <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" SensitivityLabel="{x:Null}" DisplayName="Uso del documento Excel" sap:VirtualizedContainerService.HintSize="536,1119" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_9" ResizeWindow="None" SensitivityOperation="None" WorkbookPath="\\Srvservimeters\PROGRAMACION AREA TECNICA\PROGRAMACION RETIE\REVISION DE PROFORMAS YEIMY\Archivos PC\AT NetSuite\Pruebas Camilo\Filtros Actualización de Proformas.xlsx">
                                   <ueab:ExcelApplicationCard.Body>
                                     <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
                                       <ActivityAction.Argument>
@@ -1015,7 +1015,7 @@
                                               </scg:Dictionary>
                                             </sap:WorkflowViewStateService.ViewState>
                                           </Assign>
-                                          <ui:InvokeCode ContinueOnError="{x:Null}" Code="&#xD;&#xA;If fechaActual.Day &lt;= 7 Then&#xD;&#xA;    ' Primera condición: Desde el primer día del mes hasta el día actual + 1 día&#xD;&#xA;    FechaInicio = New DateTime(fechaActual.Year, fechaActual.Month, 1) ' Primer día del mes&#xD;&#xA;    FechaFin = fechaActual.AddDays(1) ' Día actual + 1 día&#xD;&#xA;    Message = &quot;Condición 1: Primera semana del mes seleccionada.&quot;&#xD;&#xA;&#xD;&#xA;' Segunda Condición: Desde el primer día del mes hasta el día actual&#xD;&#xA;ElseIf fechaActual.Day &lt; 15 Then&#xD;&#xA;    FechaInicio = New DateTime(fechaActual.Year, fechaActual.Month, 1)&#xD;&#xA;    FechaFin = fechaActual.Date ' Establecer fecha actual sin hora&#xD;&#xA;    Message = &quot;Condición 2: Desde el primero del mes hasta el día actual.&quot;&#xD;&#xA;&#x9;&#xD;&#xA;&#x9;' Tercera condición: Todo el mes&#xD;&#xA;ElseIf fechaActual.Day &gt;= 15 Then&#xD;&#xA;    FechaInicio = New DateTime(fechaActual.Year, fechaActual.Month, 1) ' Primer día del mes&#xD;&#xA;    FechaFin = New DateTime(fechaActual.Year, fechaActual.Month, DateTime.DaysInMonth(fechaActual.Year, fechaActual.Month)) ' Último día del mes&#xD;&#xA;    Message = &quot;Condición 3: Todo el mes seleccionado.&quot;&#xD;&#xA;End If" DisplayName="Invoke Code" sap:VirtualizedContainerService.HintSize="434,197" sap2010:WorkflowViewState.IdRef="InvokeCode_8">
+                                          <ui:InvokeCode ContinueOnError="{x:Null}" Code="&#xA;If fechaActual.Day &lt;= 7 Then&#xA;    ' Primera condición: Desde el primer día del mes hasta el día actual + 1 día&#xA;    FechaInicio = New DateTime(fechaActual.Year, fechaActual.Month, 1) ' Primer día del mes&#xA;    FechaFin = fechaActual.AddDays(1) ' Día actual + 1 día&#xA;    Message = &quot;Condición 1: Primera semana del mes seleccionada.&quot;&#xA;&#xA;' Segunda Condición: Desde el primer día del mes hasta el día actual&#xA;ElseIf fechaActual.Day &lt; 15 Then&#xA;    FechaInicio = New DateTime(fechaActual.Year, fechaActual.Month, 1)&#xA;    FechaFin = fechaActual.Date ' Establecer fecha actual sin hora&#xA;    Message = &quot;Condición 2: Desde el primero del mes hasta el día actual.&quot;&#xA;&#x9;&#xA;&#x9;' Tercera condición: Todo el mes&#xA;ElseIf fechaActual.Day &gt;= 15 Then&#xA;    FechaInicio = New DateTime(fechaActual.Year, fechaActual.Month, 1) ' Primer día del mes&#xA;    FechaFin = New DateTime(fechaActual.Year, fechaActual.Month, DateTime.DaysInMonth(fechaActual.Year, fechaActual.Month)) ' Último día del mes&#xA;    Message = &quot;Condición 3: Todo el mes seleccionado.&quot;&#xA;End If" DisplayName="Invoke Code" sap:VirtualizedContainerService.HintSize="434,197" sap2010:WorkflowViewState.IdRef="InvokeCode_8">
                                             <ui:InvokeCode.Arguments>
                                               <InOutArgument x:TypeArguments="s:DateTime" x:Key="FechaInicio ">[FechaInicio]</InOutArgument>
                                               <InOutArgument x:TypeArguments="s:DateTime" x:Key="FechaFin ">[FechaFin]</InOutArgument>
@@ -1073,7 +1073,7 @@
                             <av:Size x:Key="ShapeSize">110,70</av:Size>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <Sequence DisplayName="Filtrado por Estado NS y Porcentaje" sap:VirtualizedContainerService.HintSize="1062,8346" sap2010:WorkflowViewState.IdRef="Sequence_681">
+                        <Sequence DisplayName="Filtrado por Estado NS y Porcentaje" sap:VirtualizedContainerService.HintSize="1062,8685" sap2010:WorkflowViewState.IdRef="Sequence_681">
                           <Sequence.Variables>
                             <Variable x:TypeArguments="sd:DataTable" Name="numero_filas_visitas_ejecutadas" />
                             <Variable x:TypeArguments="x:Int32" Name="last_row_visitas" />
@@ -1085,38 +1085,39 @@
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <Sequence DisplayName="Uso: Documento filtra de actualización de proformas" sap:VirtualizedContainerService.HintSize="1028,8286" sap2010:WorkflowViewState.IdRef="Sequence_289">
+                          <Sequence DisplayName="Uso: Documento filtra de actualización de proformas" sap:VirtualizedContainerService.HintSize="1028,8625" sap2010:WorkflowViewState.IdRef="Sequence_289">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                 <x:Boolean x:Key="IsPinned">True</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
-                            <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" DisplayName="Alcance proceso de Excel" sap:VirtualizedContainerService.HintSize="994,8203" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_10">
+                            <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" DisplayName="Alcance proceso de Excel" sap:VirtualizedContainerService.HintSize="994,8542" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_10">
                               <ueab:ExcelProcessScopeX.Body>
                                 <ActivityAction x:TypeArguments="ui:IExcelProcess">
                                   <ActivityAction.Argument>
                                     <DelegateInArgument x:TypeArguments="ui:IExcelProcess" Name="ExcelProcessScopeTag" />
                                   </ActivityAction.Argument>
-                                  <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="960,8093" sap2010:WorkflowViewState.IdRef="Sequence_71">
+                                  <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="960,8432" sap2010:WorkflowViewState.IdRef="Sequence_71">
                                     <sap:WorkflowViewStateService.ViewState>
                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                         <x:Boolean x:Key="IsPinned">True</x:Boolean>
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
-                                    <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Usar el archivo Excel" sap:VirtualizedContainerService.HintSize="926,8033" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_10" ResizeWindow="Maximize" TemplatePath="C:\Users\duvan.sanabria\Downloads\ExcelFilters\Suppliers.xlsx" WorkbookPath="\\Srvservimeters\PROGRAMACION AREA TECNICA\PROGRAMACION RETIE\REVISION DE PROFORMAS YEIMY\Archivos PC\AT NetSuite\Pruebas Camilo\Filtros Actualización de Proformas.xlsx">
+                                    <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" SensitivityLabel="{x:Null}" DisplayName="Usar el archivo Excel" sap:VirtualizedContainerService.HintSize="926,8372" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_10" ResizeWindow="Maximize" SensitivityOperation="None" TemplatePath="C:\Users\duvan.sanabria\Downloads\ExcelFilters\Suppliers.xlsx" WorkbookPath="\\Srvservimeters\PROGRAMACION AREA TECNICA\PROGRAMACION RETIE\REVISION DE PROFORMAS YEIMY\Archivos PC\AT NetSuite\Pruebas Camilo\Filtros Actualización de Proformas.xlsx">
                                       <ueab:ExcelApplicationCard.Body>
                                         <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
                                           <ActivityAction.Argument>
                                             <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="filtro_actualizacion" />
                                           </ActivityAction.Argument>
-                                          <Sequence DisplayName="Uso: Documento filtro de actualización de proformas " sap:VirtualizedContainerService.HintSize="892,7741" sap2010:WorkflowViewState.IdRef="Sequence_73">
+                                          <Sequence DisplayName="Uso: Documento filtro de actualización de proformas " sap:VirtualizedContainerService.HintSize="892,8080" sap2010:WorkflowViewState.IdRef="Sequence_73">
                                             <Sequence.Variables>
                                               <Variable x:TypeArguments="x:String" Name="datos_proformas" />
                                               <Variable x:TypeArguments="sd:DataTable" Name="datos_total" />
                                               <Variable x:TypeArguments="x:Double" Name="suma_total" />
                                               <Variable x:TypeArguments="x:String" Name="tabla_html" />
+                                              <Variable x:TypeArguments="x:String" Name="variable1" />
                                             </Sequence.Variables>
                                             <sap:WorkflowViewStateService.ViewState>
                                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -1124,14 +1125,14 @@
                                                 <x:Boolean x:Key="IsPinned">True</x:Boolean>
                                               </scg:Dictionary>
                                             </sap:WorkflowViewStateService.ViewState>
-                                            <Sequence DisplayName="Lectura: Datos de la hoja visitadas ejecutadas" sap:VirtualizedContainerService.HintSize="858,341" sap2010:WorkflowViewState.IdRef="Sequence_637">
+                                            <Sequence DisplayName="Lectura: Datos de la hoja visitadas ejecutadas" sap:VirtualizedContainerService.HintSize="858,485" sap2010:WorkflowViewState.IdRef="Sequence_637">
                                               <sap:WorkflowViewStateService.ViewState>
                                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                   <x:Boolean x:Key="IsPinned">True</x:Boolean>
                                                 </scg:Dictionary>
                                               </sap:WorkflowViewStateService.ViewState>
-                                              <ueab:FilterX ColumnName="{x:Null}" FilterArgument="{x:Null}" ClearFilter="True" DisplayName="Filtrado: Se limpia cualquier filtro realizado" HasHeaders="True" sap:VirtualizedContainerService.HintSize="434,201" sap2010:WorkflowViewState.IdRef="FilterX_11" Range="[filtro_actualizacion.Sheet(&quot;Visitas Ejecutadas&quot;)]">
+                                              <ueab:FilterX ColumnName="{x:Null}" FilterArgument="{x:Null}" ClearFilter="True" DisplayName="Filtrado: Se limpia cualquier filtro realizado" HasHeaders="True" sap:VirtualizedContainerService.HintSize="434,201" sap2010:WorkflowViewState.IdRef="FilterX_13" Range="[filtro_actualizacion.Sheet(&quot;Visitas Ejecutadas&quot;)]">
                                                 <sap:WorkflowViewStateService.ViewState>
                                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1139,7 +1140,7 @@
                                                   </scg:Dictionary>
                                                 </sap:WorkflowViewStateService.ViewState>
                                               </ueab:FilterX>
-                                              <ueab:FilterX ClearFilter="False" ColumnName="Estado NS" DisplayName="Filter" HasHeaders="True" sap:VirtualizedContainerService.HintSize="434,48" sap2010:WorkflowViewState.IdRef="FilterX_12" Range="[filtro_actualizacion.Sheet(&quot;Visitas Ejecutadas&quot;)]">
+                                              <ueab:FilterX ClearFilter="False" ColumnName="Estado NS" DisplayName="Filter" HasHeaders="True" sap:VirtualizedContainerService.HintSize="434,192" sap2010:WorkflowViewState.IdRef="FilterX_14" Range="[filtro_actualizacion.Sheet(&quot;Visitas Ejecutadas&quot;)]">
                                                 <ueab:FilterX.FilterArgument>
                                                   <ueabf:FilterArgument Mode="Basic">
                                                     <ueabf:FilterArgument.AdvancedFiltersArgument>
@@ -1165,12 +1166,12 @@
                                                 </ueab:FilterX.FilterArgument>
                                                 <sap:WorkflowViewStateService.ViewState>
                                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                    <x:Boolean x:Key="IsPinned">True</x:Boolean>
                                                   </scg:Dictionary>
                                                 </sap:WorkflowViewStateService.ViewState>
                                               </ueab:FilterX>
                                             </Sequence>
-                                            <Sequence DisplayName="Traspaso de Proforma" sap:VirtualizedContainerService.HintSize="858,6602" sap2010:WorkflowViewState.IdRef="Sequence_72">
+                                            <Sequence DisplayName="Traspaso de Proforma" sap:VirtualizedContainerService.HintSize="858,6797" sap2010:WorkflowViewState.IdRef="Sequence_72">
                                               <Sequence.Variables>
                                                 <Variable x:TypeArguments="x:Int32" Default="[50%]" Name="limit" />
                                               </Sequence.Variables>
@@ -1180,7 +1181,7 @@
                                                   <x:Boolean x:Key="IsPinned">True</x:Boolean>
                                                 </scg:Dictionary>
                                               </sap:WorkflowViewStateService.ViewState>
-                                              <Sequence sap:VirtualizedContainerService.HintSize="824,376" sap2010:WorkflowViewState.IdRef="Sequence_280">
+                                              <Sequence sap:VirtualizedContainerService.HintSize="824,573" sap2010:WorkflowViewState.IdRef="Sequence_280">
                                                 <sap:WorkflowViewStateService.ViewState>
                                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1195,6 +1196,18 @@
                                                     </scg:Dictionary>
                                                   </sap:WorkflowViewStateService.ViewState>
                                                 </ueab:ReadRangeX>
+                                                <ui:InvokeCode ContinueOnError="{x:Null}" Code="datos_transpaso_proformas = (From row In datos_transpaso_proformas.AsEnumerable()&#xD;&#xA;              Group row By key = row(&quot;OS NS&quot;).ToString() Into Group&#xD;&#xA;              Let maxRow = Group.OrderByDescending(Function(r) If(IsNumeric(r(&quot;Porcentaje&quot;).ToString().TrimEnd(&quot;%&quot;c)), CInt(r(&quot;Porcentaje&quot;).ToString().TrimEnd(&quot;%&quot;c)), 0)).First()&#xD;&#xA;              Select maxRow).CopyToDataTable()" DisplayName="Invoke Code" sap:VirtualizedContainerService.HintSize="444,197" sap2010:WorkflowViewState.IdRef="InvokeCode_10">
+                                                  <ui:InvokeCode.Arguments>
+                                                    <InOutArgument x:TypeArguments="sd:DataTable" x:Key="datos_transpaso_proformas">
+                                                      <VisualBasicReference x:TypeArguments="sd:DataTable" ExpressionText="datos_transpaso_proformas" />
+                                                    </InOutArgument>
+                                                  </ui:InvokeCode.Arguments>
+                                                  <sap:WorkflowViewStateService.ViewState>
+                                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                      <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                                                    </scg:Dictionary>
+                                                  </sap:WorkflowViewStateService.ViewState>
+                                                </ui:InvokeCode>
                                                 <ui:BuildDataTable DataTable="[datos_total]" DisplayName="Creación: Tabla para asignarlo en la hoja1" sap:VirtualizedContainerService.HintSize="444,83" sap2010:WorkflowViewState.IdRef="BuildDataTable_9" TableInfo="&lt;NewDataSet&gt;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xA;      &lt;xs:complexType&gt;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xA;            &lt;xs:complexType&gt;&#xA;              &lt;xs:sequence&gt;&#xA;                &lt;xs:element name=&quot;Os_ns&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xA;                  &lt;xs:simpleType&gt;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xA;                      &lt;xs:maxLength value=&quot;100&quot; /&gt;&#xA;                    &lt;/xs:restriction&gt;&#xA;                  &lt;/xs:simpleType&gt;&#xA;                &lt;/xs:element&gt;&#xA;                &lt;xs:element name=&quot;Total&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xA;                  &lt;xs:simpleType&gt;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xA;                      &lt;xs:maxLength value=&quot;100&quot; /&gt;&#xA;                    &lt;/xs:restriction&gt;&#xA;                  &lt;/xs:simpleType&gt;&#xA;                &lt;/xs:element&gt;&#xA;              &lt;/xs:sequence&gt;&#xA;            &lt;/xs:complexType&gt;&#xA;          &lt;/xs:element&gt;&#xA;        &lt;/xs:choice&gt;&#xA;      &lt;/xs:complexType&gt;&#xA;    &lt;/xs:element&gt;&#xA;  &lt;/xs:schema&gt;&#xA;&lt;/NewDataSet&gt;">
                                                   <sap:WorkflowViewStateService.ViewState>
                                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -1204,20 +1217,20 @@
                                                   </sap:WorkflowViewStateService.ViewState>
                                                 </ui:BuildDataTable>
                                               </Sequence>
-                                              <Sequence sap:VirtualizedContainerService.HintSize="824,6134" sap2010:WorkflowViewState.IdRef="Sequence_281">
+                                              <Sequence sap:VirtualizedContainerService.HintSize="824,6132" sap2010:WorkflowViewState.IdRef="Sequence_281">
                                                 <sap:WorkflowViewStateService.ViewState>
                                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                     <x:Boolean x:Key="IsPinned">True</x:Boolean>
                                                   </scg:Dictionary>
                                                 </sap:WorkflowViewStateService.ViewState>
-                                                <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[datos_transpaso_proformas]" DisplayName="Recorrer: Iterar cada fila de la tabla de datos" sap:VirtualizedContainerService.HintSize="790,6051" sap2010:WorkflowViewState.IdRef="ForEachRow_4">
+                                                <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[datos_transpaso_proformas]" DisplayName="Recorrer: Iterar cada fila de la tabla de datos" sap:VirtualizedContainerService.HintSize="790,6049" sap2010:WorkflowViewState.IdRef="ForEachRow_4">
                                                   <ui:ForEachRow.Body>
                                                     <ActivityAction x:TypeArguments="sd:DataRow">
                                                       <ActivityAction.Argument>
                                                         <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
                                                       </ActivityAction.Argument>
-                                                      <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="756,5864" sap2010:WorkflowViewState.IdRef="Sequence_94">
+                                                      <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="756,5862" sap2010:WorkflowViewState.IdRef="Sequence_94">
                                                         <Sequence.Variables>
                                                           <Variable x:TypeArguments="x:String" Name="value_OS_NS" />
                                                           <Variable x:TypeArguments="x:String" Name="value_porcentaje" />
@@ -1301,7 +1314,7 @@
                                                             </scg:Dictionary>
                                                           </sap:WorkflowViewStateService.ViewState>
                                                         </Assign>
-                                                        <Sequence DisplayName="Validación y Actualización de Input" sap:VirtualizedContainerService.HintSize="722,5234" sap2010:WorkflowViewState.IdRef="Sequence_97">
+                                                        <Sequence DisplayName="Validación y Actualización de Input" sap:VirtualizedContainerService.HintSize="722,5232" sap2010:WorkflowViewState.IdRef="Sequence_97">
                                                           <Sequence.Variables>
                                                             <Variable x:TypeArguments="x:Int32" Name="estado" />
                                                           </Sequence.Variables>
@@ -1311,20 +1324,20 @@
                                                               <x:Boolean x:Key="IsPinned">True</x:Boolean>
                                                             </scg:Dictionary>
                                                           </sap:WorkflowViewStateService.ViewState>
-                                                          <uix:NApplicationCard AttachMode="ByInstance" CloseMode="IfOpenedByAppBrowser" DisplayName="Use Browser Chrome: Resultados KS REPORTE CARTERA (ROBOT): - NetSuite (SERVIMETERS S.A.S)" sap:VirtualizedContainerService.HintSize="688,5151" sap2010:WorkflowViewState.IdRef="NApplicationCard_6" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="3102ee9e-17f0-4657-bdd9-ff272a1d1074" Version="V2" WindowResize="Maximize">
+                                                          <uix:NApplicationCard AttachMode="ByInstance" CloseMode="IfOpenedByAppBrowser" DisplayName="Use Browser Chrome: Resultados KS REPORTE CARTERA (ROBOT): - NetSuite (SERVIMETERS S.A.S)" sap:VirtualizedContainerService.HintSize="688,5149" sap2010:WorkflowViewState.IdRef="NApplicationCard_6" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="3102ee9e-17f0-4657-bdd9-ff272a1d1074" Version="V2" WindowResize="Maximize">
                                                             <uix:NApplicationCard.Body>
                                                               <ActivityAction x:TypeArguments="x:Object">
                                                                 <ActivityAction.Argument>
                                                                   <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                                                                 </ActivityAction.Argument>
-                                                                <Sequence sap:VirtualizedContainerService.HintSize="654,4911" sap2010:WorkflowViewState.IdRef="Sequence_545">
+                                                                <Sequence sap:VirtualizedContainerService.HintSize="654,4909" sap2010:WorkflowViewState.IdRef="Sequence_545">
                                                                   <sap:WorkflowViewStateService.ViewState>
                                                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                                       <x:Boolean x:Key="IsPinned">True</x:Boolean>
                                                                     </scg:Dictionary>
                                                                   </sap:WorkflowViewStateService.ViewState>
-                                                                  <Sequence DisplayName="Modificación: A la orden de servicio " sap:VirtualizedContainerService.HintSize="620,4849" sap2010:WorkflowViewState.IdRef="Sequence_535">
+                                                                  <Sequence DisplayName="Modificación: A la orden de servicio " sap:VirtualizedContainerService.HintSize="620,4847" sap2010:WorkflowViewState.IdRef="Sequence_535">
                                                                     <Sequence.Variables>
                                                                       <Variable x:TypeArguments="x:String" Name="numero_visitas" />
                                                                       <Variable x:TypeArguments="x:String" Name="visitas_ejecutadas" />
@@ -1336,14 +1349,14 @@
                                                                         <x:Boolean x:Key="IsPinned">True</x:Boolean>
                                                                       </scg:Dictionary>
                                                                     </sap:WorkflowViewStateService.ViewState>
-                                                                    <If Condition="[value_OS_NS.StartsWith(&quot;PR&quot;)]" sap:VirtualizedContainerService.HintSize="586,4762" sap2010:WorkflowViewState.IdRef="If_28">
+                                                                    <If Condition="[value_OS_NS.StartsWith(&quot;PR&quot;)]" sap:VirtualizedContainerService.HintSize="586,4760" sap2010:WorkflowViewState.IdRef="If_28">
                                                                       <sap:WorkflowViewStateService.ViewState>
                                                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                           <x:Boolean x:Key="IsPinned">True</x:Boolean>
                                                                         </scg:Dictionary>
                                                                       </sap:WorkflowViewStateService.ViewState>
                                                                       <If.Then>
-                                                                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="552,4574" sap2010:WorkflowViewState.IdRef="Sequence_646">
+                                                                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="552,4572" sap2010:WorkflowViewState.IdRef="Sequence_646">
                                                                           <sap:WorkflowViewStateService.ViewState>
                                                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1447,7 +1460,7 @@
                                                                               </scg:Dictionary>
                                                                             </sap:WorkflowViewStateService.ViewState>
                                                                           </ui:InvokeCode>
-                                                                          <If Condition="[estado=1]" sap:VirtualizedContainerService.HintSize="518,1790" sap2010:WorkflowViewState.IdRef="If_26">
+                                                                          <If Condition="[estado=1]" sap:VirtualizedContainerService.HintSize="518,1788" sap2010:WorkflowViewState.IdRef="If_26">
                                                                             <sap:WorkflowViewStateService.ViewState>
                                                                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                                 <x:Boolean x:Key="IsPinned">True</x:Boolean>
@@ -1455,7 +1468,7 @@
                                                                               </scg:Dictionary>
                                                                             </sap:WorkflowViewStateService.ViewState>
                                                                             <If.Then>
-                                                                              <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="484,1595" sap2010:WorkflowViewState.IdRef="Sequence_588">
+                                                                              <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="484,1593" sap2010:WorkflowViewState.IdRef="Sequence_588">
                                                                                 <sap:WorkflowViewStateService.ViewState>
                                                                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1657,7 +1670,7 @@
                                                                                     </Sequence>
                                                                                   </TryCatch.Finally>
                                                                                 </TryCatch>
-                                                                                <usa:NSetValue ContinueOnError="False" DisplayName="Ingreso: Porcentaje campo SM PORCENTAJE AVANCE" sap:VirtualizedContainerService.HintSize="450,248" sap2010:WorkflowViewState.IdRef="NSetValue_15" ScopeIdentifier="3102ee9e-17f0-4657-bdd9-ff272a1d1074" Value="[value_porcentaje]" Version="V3">
+                                                                                <usa:NSetValue ContinueOnError="False" DisplayName="Ingreso: Porcentaje campo SM PORCENTAJE AVANCE" sap:VirtualizedContainerService.HintSize="450,246" sap2010:WorkflowViewState.IdRef="NSetValue_15" ScopeIdentifier="3102ee9e-17f0-4657-bdd9-ff272a1d1074" Value="[value_porcentaje]" Version="V3">
                                                                                   <usa:NSetValue.Target>
                                                                                     <uix:TargetAnchorable BrowserURL="https://5845631.app.netsuite.com/app/accounting/transactions/salesord.nl?id=1031438&amp;e=T&amp;whence=" DesignTimeRectangle="419, 662, 280, 25" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl tableCol='51' tableRow='2' tag='TABLE' /&gt;&lt;webctrl id='custbody_sm_porc_avance' tableRow='4' tag='INPUT' /&gt;" Guid="ead603d1-923f-4a51-89dc-bb0cabcf2ec3" InformativeScreenshot="43f15ff91053822541fa2c9316e1c96e.png" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='stSession92Id' title='Orden de Servicio - NetSuite (SERVIMETERS S.A.S)' /&gt;" SearchSteps="Semantic" SemanticElementType="InputBox" SemanticTextArgument="%[&quot;SM PORCENTAJE AVANCE&quot;]" TargetType="SemanticBased" Version="V4" Visibility="Interactive" />
                                                                                   </usa:NSetValue.Target>
@@ -2296,7 +2309,8 @@
                                                                         <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,25" sap2010:WorkflowViewState.IdRef="Sequence_647">
                                                                           <sap:WorkflowViewStateService.ViewState>
                                                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                                                             </scg:Dictionary>
                                                                           </sap:WorkflowViewStateService.ViewState>
                                                                         </Sequence>
